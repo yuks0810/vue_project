@@ -1,3 +1,6 @@
+参考：
+https://qiita.com/A-Kira/items/9f86b5ec4ea065eac153
+
 # vue_pj
 
 ## Project setup
