@@ -1,11 +1,11 @@
 #nodeイメージをpullする
-FROM node:10.15.3-alpine
+FROM node:14.15.0-alpine
 
 #working directory
 WORKDIR /app
 
 #vuecliインストール
-RUN npm install -g @vue/cli
+RUN npm install -g @vue/cli && apk add git
 
 #shファイルをコンテナにコピー
 COPY ./scripts/docker.start.sh /scripts/start.sh
